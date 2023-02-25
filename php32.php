@@ -27,15 +27,15 @@ echo "\n \n";
 $hexColor = "#FF2F44";
 # string -
 sscanf($hexColor, "# %2s %2s %2s", $red, $green, $blue);
-echo $red . "\n";
-echo $green . "\n";
-echo $blue . "\n \n";
+echo "red - String :" .$red . "\n";
+echo "green - String :" .$green . "\n";
+echo "blue - String :" .$blue . "\n \n";
 
 # hexa_decimal -
 sscanf($hexColor, "# %2x %2x %2x", $red, $green, $blue);
-echo $red . "\n";
-echo $green . "\n";
-echo $blue . "\n \n";
+echo "red - Hexa to Decimal No :" .$red . "\n";
+echo "green - Hexa to Decimal No :" .$green . "\n";
+echo "blue - Hexa to Decimal No :" .$blue . "\n \n";
 
 
 
